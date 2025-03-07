@@ -25,7 +25,7 @@ export default function Teams() {
         <div className="grid max-w-6xl grid-cols-1 px-20 mx-auto mt-12 text-center sm:px-0 sm:grid-cols-2 md:mt-20 gap-x-8 md:grid-cols-3 gap-y-12 lg:gap-x-16 xl:gap-x-20">
           <div>
             <Image
-              className="object-cover w-32 h-32 mx-auto rounded-full lg:w-44 lg:h-44"
+              className="object-cover w-32 h-32 mx-auto rounded-full lg:w-44 lg:h-44 hover:transition hover:scale-105 hover:ease-in hover:duration-300"
               src="/shania.jpg"
               alt="CEO"
               width={176}
@@ -52,7 +52,7 @@ export default function Teams() {
 
           <div>
             <Image
-              className="object-cover w-32 h-32 mx-auto rounded-full lg:w-44 lg:h-44"
+              className="object-cover w-32 h-32 mx-auto rounded-full lg:w-44 lg:h-44 hover:transition hover:scale-105 hover:ease-in hover:duration-300"
               src="/mark.jpg"
               alt="Operations Manager"
               width={176}
@@ -79,7 +79,7 @@ export default function Teams() {
 
           <div>
             <Image
-              className="object-cover w-32 h-32 mx-auto rounded-full lg:w-44 lg:h-44"
+              className="object-cover w-32 h-32 mx-auto rounded-full lg:w-44 lg:h-44 hover:transition hover:scale-105 hover:ease-in hover:duration-300"
               src="/emily.jpg"
               alt="Head Designer"
               width={176}

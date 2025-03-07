@@ -1,3 +1,4 @@
+import ScrollAnimation from "@/components/scrollanimation";
 import Testi from "../Home/_components/testimonial";
 import BoyShirt from "./_components/boyshirt";
 import BoyShort from "./_components/boyshort";
@@ -27,10 +28,18 @@ export default function Product() {
           </p>
         </div>
       </div>
-      <BoyShirt />
-      <BoyShort />
-      <GirlShirt />
-      <GirlShort />
+      <ScrollAnimation>
+        <BoyShirt />
+      </ScrollAnimation>
+      <ScrollAnimation>
+        <BoyShort />
+      </ScrollAnimation>
+      <ScrollAnimation>
+        <GirlShirt />
+      </ScrollAnimation>
+      <ScrollAnimation>
+        <GirlShort />
+      </ScrollAnimation>
       <Message />
       <Testi />
     </div>

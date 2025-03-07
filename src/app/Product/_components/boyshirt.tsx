@@ -113,7 +113,7 @@ export default function BoyShirt() {
       </div>
       <div className="flex w-full justify-center">
         <a href="#">
-          <button className="font-bold bg-gradient-to-r from-red-200 to-amber-200 text-gray-600 px-4 py-2 rounded-xl shadow-xl hover:from-amber-200 hover:to-red-200">
+          <button className="font-bold bg-gradient-to-r from-red-200 to-amber-200 text-gray-600 px-4 py-2 rounded-xl shadow-xl hover:from-amber-200 hover:to-red-200 hover:transition-transform hover:scale-105">
             Find More
           </button>
         </a>

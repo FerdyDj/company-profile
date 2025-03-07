@@ -36,12 +36,14 @@ export default function NavBar() {
   return (
     <div className="max-sm:pt-2 max-sm:flex-row sm:flex max-w-screen max-sm:h-fit sm:h-[70px] justify-between items-center z-50 px-8 sticky top-0 bg-gradient-to-b from-yellow-100 to-transparent">
       <div className="flex justify-between items-center">
-        <Image
-          src={"/logo.png"}
-          alt="logo-kids"
-          width={100}
-          height={50}
-        ></Image>
+        <Link href={"/Home"}>
+          <Image
+            src={"/logo.png"}
+            alt="logo-kids"
+            width={100}
+            height={50}
+          ></Image>
+        </Link>
         <span
           onClick={toggleMenu}
           className="text-3xl cursor-pointer sm:hidden block mx-4"

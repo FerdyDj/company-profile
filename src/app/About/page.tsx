@@ -1,7 +1,7 @@
+import FromLeft from "@/components/fromLeft";
+import FromRight from "@/components/fromRight";
+import ScrollAnimation from "@/components/scrollanimation";
 import Image from "next/image";
-import Link from "next/link";
-import { FaFacebook, FaInstagram } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
 
 export default function About() {
   return (
@@ -14,11 +14,28 @@ export default function About() {
           <hr className="border-4 my-8 mx-8" />
           <p className="text-left px-8">
             Welcome to Kids Company, where creativity, style, and comfort come
-            together to create exceptional clothing for children. We&apos;re
-            more than just a clothing brand—we&apos;re a community that values
-            the joy and energy of childhood, and we&apos;re here to provide
-            every child with the opportunity to express themselves through fun,
-            stylish, and durable apparel.
+            together to craft clothing that celebrates the spirit of childhood.
+            We believe that every child deserves the chance to explore, create,
+            and express themselves freely, and our mission is to help make that
+            happen—one outfit at a time. More than just a clothing brand, we are
+            a passionate community that understands the joy and energy of being
+            a kid. We know that childhood is a time of discovery, imagination,
+            and endless fun, and we are here to provide children with the tools
+            to express their individuality. Whether they&apos;re dressing up for a
+            special occasion or playing with friends in the backyard, our
+            clothing is designed to keep up with their vibrant personalities and
+            active lifestyles. From playful patterns and bold colors to soft,
+            durable fabrics, every piece of our collection is made with care and
+            attention to detail. We focus on creating stylish, comfortable, and
+            long-lasting apparel that stands the test of time—because we believe
+            that kids should feel confident, comfortable, and inspired every
+            day. At Kids Company, we are more than just a brand—we&apos;re a family.
+            We are committed to supporting parents and caregivers as they raise
+            confident, creative, and happy children. By choosing our clothing,
+            you&apos;re not just buying a product—you&apos;re becoming part of a community
+            that values imagination, fun, and the simple joy of being a kid.
+            Join us on this journey, and let's make childhood even more
+            colorful, playful, and full of possibilities.
           </p>
           <h3 className="text-xl font-semibold text-gray-900 sm:text-2xl xl:text-3xl rounded-md py-8 text-left px-8">
             Company History
@@ -35,7 +52,8 @@ export default function About() {
             we continue to expand our reach while staying true to our roots of
             quality, sustainability, and fun.
           </p>
-          <h3 className="text-xl font-semibold text-gray-900 sm:text-2xl xl:text-3xl py-8 text-center px-8">
+          <ScrollAnimation>
+          <h3 className="text-xl font-semibold text-gray-900 sm:text-2xl xl:text-3xl py-8 text-center px-8 mt-8">
             Team Members
           </h3>
           <div className="grid max-w-6xl grid-cols-1 px-20 mx-auto mt-2 text-center sm:px-0 md:mt-12 gap-x-4 gap-y-8 lg:gap-x-8 xl:gap-x-16">
@@ -106,7 +124,9 @@ export default function About() {
               </div>
             </div>
           </div>
+          </ScrollAnimation>
           <div className="grid max-w-6xl grid-cols-1 md:grid-cols-2 px-20 mx-auto mt-2 text-center sm:px-0 md:mt-12 gap-x-4 gap-y-8 lg:gap-x-8 xl:gap-x-16">
+            <FromLeft>
             <div className="w-full">
               <h3 className="text-xl font-semibold text-gray-900 sm:text-2xl xl:text-3xl py-8 text-center md:text-left">
                 Culture and Values
@@ -127,15 +147,18 @@ export default function About() {
                 and families around the world.
               </p>
             </div>
+            </FromLeft>
+            <FromRight>
             <div className="w-full">
               <Image
-               src={"/culture.jpg"}
-               alt="culture-and-values"
-               width={500}
-               height={500}
-               className="object-cover w-full h-full"
+                src={"/culture.jpg"}
+                alt="culture-and-values"
+                width={500}
+                height={500}
+                className="object-cover w-full h-full rounded-xl"
               ></Image>
             </div>
+            </FromRight>
           </div>
         </div>
       </div>

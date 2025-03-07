@@ -1,6 +1,13 @@
+import FromRight from "@/components/fromRight";
+
 export default function ComOver() {
   return (
-    <div className="w-full h-full">
+    <div className="relative w-full h-full">
+      <FromRight>
+        <div className="absolute right-16 top-10 w-96 h-96 rounded-full bg-emerald-200 blur-2xl mix-blend-multiply max-lg:opacity-0"></div>
+        <div className="absolute right-56 top-80 w-96 h-96 rounded-full bg-sky-200 blur-2xl mix-blend-multiply max-lg:opacity-0"></div>
+        <div className="absolute right-36 bottom-16 w-96 h-96 rounded-full bg-amber-200 blur-2xl mix-blend-multiply max-lg:opacity-0"></div>
+      </FromRight>
       <h2 className="max-sm:pl-4 pl-20 pt-8 sm:pt-20 font-bold text-4xl text-gray-700">
         About The Company
       </h2>
