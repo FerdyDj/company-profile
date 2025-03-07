@@ -34,7 +34,7 @@ export default function About() {
             confident, creative, and happy children. By choosing our clothing,
             you&apos;re not just buying a product—you&apos;re becoming part of a community
             that values imagination, fun, and the simple joy of being a kid.
-            Join us on this journey, and let's make childhood even more
+            Join us on this journey, and let&apos;s make childhood even more
             colorful, playful, and full of possibilities.
           </p>
           <h3 className="text-xl font-semibold text-gray-900 sm:text-2xl xl:text-3xl rounded-md py-8 text-left px-8">
@@ -116,7 +116,7 @@ export default function About() {
                 <p className="flex-1 text-base font-normal text-gray-600">
                   Emily Johnson leads our design team with a keen eye for both
                   style and function. Emily&apos;s passion for design and her
-                  understanding of children's needs in clothing allow her to
+                  understanding of children&apos;s needs in clothing allow her to
                   create collections that are both trendy and comfortable,
                   ensuring every child feels confident and free to express
                   themselves.

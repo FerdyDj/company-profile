@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { FaDiscord, FaFacebook, FaGithub, FaInstagram, FaTwitter } from "react-icons/fa";
-import { FaX, FaXTwitter } from "react-icons/fa6";
+import { FaXTwitter } from "react-icons/fa6";
 
 export default function Footer() {
   return (
@@ -17,7 +17,7 @@ export default function Footer() {
             ></Image>
 
             <p className="text-base leading-relaxed text-gray-600 mt-7">
-            "Where comfort meets style,and every child shines bright!"
+            &quot;Where comfort meets style,and every child shines bright!&quot;
             </p>
 
             <ul className="flex items-center space-x-3 mt-9">

@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Testi() {
   return (
     <div>
@@ -89,11 +91,13 @@ export default function Testi() {
                     </div>
 
                     <div className="flex items-center mt-8">
-                      <img
-                        className="flex-shrink-0 object-cover rounded-full w-11 h-11"
-                        src="https://cdn.rareblocks.xyz/collection/clarity/images/testimonial/4/avatar-male-1.png"
-                        alt=""
-                      />
+                      <Image
+                        className="flex-shrink-0 object-cover rounded-full"
+                        src="/av1.png"
+                        alt="pic-james"
+                        width={44}
+                        height={44}
+                      ></Image>
                       <div className="ml-4">
                         <p className="text-base font-bold text-gray-900 font-pj">
                           James Williams
@@ -165,11 +169,13 @@ export default function Testi() {
                     </div>
 
                     <div className="flex items-center mt-8">
-                      <img
-                        className="flex-shrink-0 object-cover rounded-full w-11 h-11"
-                        src="https://cdn.rareblocks.xyz/collection/clarity/images/testimonial/4/avatar-male-2.png"
-                        alt=""
-                      />
+                      <Image
+                        className="flex-shrink-0 object-cover rounded-full"
+                        src="/av2.png"
+                        alt="pic-michael"
+                        width={44}
+                        height={44}
+                      ></Image>
                       <div className="ml-4">
                         <p className="text-base font-bold text-gray-900 font-pj">
                           Michael Rivera
@@ -241,11 +247,13 @@ export default function Testi() {
                     </div>
 
                     <div className="flex items-center mt-8">
-                      <img
-                        className="flex-shrink-0 object-cover rounded-full w-11 h-11"
-                        src="https://cdn.rareblocks.xyz/collection/clarity/images/testimonial/4/avatar-female.png"
-                        alt=""
-                      />
+                      <Image
+                        className="flex-shrink-0 object-cover rounded-full"
+                        src="/av3.png"
+                        alt="pic-sarah"
+                        width={44}
+                        height={44}
+                      ></Image>
                       <div className="ml-4">
                         <p className="text-base font-bold text-gray-900 font-pj">
                           Sarah Thompson

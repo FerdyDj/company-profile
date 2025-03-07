@@ -5,9 +5,9 @@ import { motion } from "motion/react";
 import Link from "next/link";
 
 type Props = {
-  clickNext: any;
-  clickPrev: any;
-  active: any;
+  clickNext: () => void;
+  clickPrev: () => void;
+  active: number;
 };
 
 const Description = ({ clickNext, clickPrev, active }: Props) => {

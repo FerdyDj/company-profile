@@ -23,7 +23,7 @@ export default function Product() {
             themselves freely, while parents can trust that each piece is made
             to last. We use eco-friendly materials and ethical manufacturing
             practices to ensure that every product is as sustainable as it is
-            fun. Whether you're looking for everyday essentials or something
+            fun. Whether you&apos;re looking for everyday essentials or something
             special, we have the perfect clothing for every occasion.
           </p>
         </div>
